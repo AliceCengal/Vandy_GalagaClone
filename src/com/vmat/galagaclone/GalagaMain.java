@@ -9,6 +9,7 @@ public class GalagaMain extends Activity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
+	// Chain the to superclass
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
